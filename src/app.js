@@ -13,6 +13,7 @@ console.log(publicDirectryPath)
 
     var app = express();
     
+    const port = process.env.PORT || 3000;
 
 
     app.use( express.static(publicDirectryPath))
@@ -89,6 +90,6 @@ console.log(publicDirectryPath)
     })
  */
 
-    app.listen(3000,()=>{
-        console.log("The app is running on port 3000")
+    app.listen(port,()=>{
+        console.log("The app is running on port "+port)
     })

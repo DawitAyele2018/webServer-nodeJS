@@ -13,7 +13,7 @@ var weatherForm = document.querySelector('form').addEventListener('submit',(e)=>
     messageOne.textContent = 'Loading....'
     messageTwo.textContent = ''
     var location = search.value;
-    var url = 'http://localhost:3000/weather?city='+location
+    var url = '/weather?city='+location
     fetch(url)
     .then(response=>{
         if(response.error){
