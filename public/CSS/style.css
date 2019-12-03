@@ -1,0 +1,56 @@
+body{
+    font-style: Arial;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1{
+    color: brown;
+    text-align: center;
+
+}
+ a{
+    color: forestgreen;
+    padding : 20px;
+    font-size: 25px;
+}
+footer{
+    color: blue
+
+}
+.portrat{
+    width: 30%;
+    height: 40%;
+    margin-left: 100px;
+}
+.main-containt{
+    flex-grow: 1;
+}
+input{
+    padding: 5px;
+    border: solid 1px royalblue;
+    background-color: lightblue;
+    margin-left: 50px;
+
+}
+button {
+    background-color:  lightblue; /* Green */
+    border: none;
+    color:black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 3px;
+  }
+  #message-1{
+    font-style: Arial;
+    margin-left: 50px;
+  }
+  #message-2{
+    font-style: Arial;
+    margin-left: 50px;
+  }
